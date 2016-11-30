@@ -1,0 +1,88 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+	
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="8">
+        <h1>How to Hack'n'go?</h1>
+        <h2>czyli 3 proste rady jak dowieźć projekt</h2>
+    </div>
+    <div class="step" data-x="-6000" data-y="4500" data-scale="4">
+        <h1>Po co to wszystko?</h1>
+    </div>
+	<div class="step" data-x="-6000" data-y="5500">
+		Żeby pomóc NGO!
+	</div>
+	<div class="step" data-x="-6000" data-y="6500">
+		Żeby się czegoś nauczyć!
+	</div>
+	<div class="step" data-x="-6000" data-y="7500">
+		Żeby się dobrze bawić!
+	</div>
+	
+    <div class="step" data-x="-2000" data-y="4500" data-scale="4">
+        <h1><b>Rada 1:</b> Ustal zakres projektu i bądź w stałym kontakcie z jego właścicielem.</h1> 
+    </div>
+	<div class="step" data-x="-2000" data-y="5500">
+		Czego klient potrzebuje:</br></br>
+		<img src="1.png"></img>
+	</div>
+	<div class="step" data-x="-2000" data-y="6500">
+		Co zespół chciał zrobić:</br></br>
+		<img src="2.png"></img>
+	</div>
+	<div class="step" data-x="-2000" data-y="7500">
+		Co udało się zrobić:</br></br>
+		<img src="3.png"></img>
+	</div>
+	
+    <div class="step" data-x="2000" data-y="4500" data-scale="4">
+        <h1><b>Rada 2:</b> Podziel projekt na możliwe najmniejsze klocki i ustal ich priorytety.</h1> 
+    </div>
+	<div class="step" data-x="2000" data-y="5500">
+		Każdy z klocków powinna być w stanie zrobić jedna osoba przez kilka godzin.
+		</br></br>
+		<img src="4.png"></img>
+	</div>
+	<div class="step" data-x="2000" data-y="6500">
+		Dogadaj się z włascicielem projektu na jakich elementach mu najbardziej zależy i od nich zacznij
+	</div>
+
+	<div class="step" data-x="6000" data-y="4500" data-scale="4">
+          <h1><b>Rada 3:</b>Jak najczęściej integruj cały projekt</h1> 
+    </div>
+	
+	<div id="end" class="step" data-x="0" data-y="14000" data-scale="8">
+        <h1>Let's Hack!</h1>
+    </div>	
+</div>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
