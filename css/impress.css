@@ -47,11 +47,11 @@ table {
 }
 
 body {
-    font-family: 'PT Sans', sans-serif;
-	color: white;
+	font-family: 'Roboto', sans-serif;
+	color: black;
     min-height: 740px;
 
-    background: rgb(0, 0, 0);
+    background: rgb(135,206,235);
 }
 
 b, strong { font-weight: bold }
@@ -79,7 +79,6 @@ a:focus {
 }
 
 .fallback-message {
-    font-family: sans-serif;
     line-height: 1.3;
 
     width: 780px;
@@ -112,7 +111,6 @@ a:focus {
     -o-box-sizing:      border-box;
     box-sizing:         border-box;
 
-    font-family: 'PT Serif', georgia, serif;
     font-size: 48px;
     line-height: 1.5;
 	
@@ -153,7 +151,6 @@ a:focus {
     color: rgb(102, 102, 102);
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 
-    font-family: 'Open Sans', Arial, sans-serif;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -1px;
